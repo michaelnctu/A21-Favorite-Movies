@@ -1,0 +1,538 @@
+2020-01-14T02:35:53:6502 | 1   | INFO    | BlueJeans(28104) | --> ===============================================================================  
+2020-01-14T02:35:53:6581 | 1   | INFO    | BlueJeans(28104) | --> ==================================== START ====================================  
+2020-01-14T02:35:53:6591 | 1   | INFO    | BlueJeans(28104) | --> ===============================================================================  
+2020-01-14T02:35:53:6591 | 1   | INFO    | BlueJeans(28104) | --> Application instance is launching with arguments [bjnb://command/gotoguestjoinpage]... 
+2020-01-14T02:35:53:6721 | 1   | INFO    | BrandingLoader | --> Failed to load branding data - Branding location [C:\Users\micha\AppData\Local\BlueJeans\BlueJeans\Branding\branding.json] is missing or invalid 
+2020-01-14T02:35:53:6791 | 1   | INFO    | BlueJeans(28104) | --> Application instance is okay to launch... 
+2020-01-14T02:35:53:6960 | 1   | INFO    | BlueJeans(28104) | --> Application instance is the first instance... 
+2020-01-14T02:35:53:6990 | 1   | INFO    | StorageMigrationHelper | --> StoragePath C:\Users\micha\AppData\Local\BlueJeans\BlueJeans, Version: 2.18.39 
+2020-01-14T02:35:53:7130 | 1   | ERROR   | StorageMigrationHelper | --> Cannot perform storage migration System.IO.DirectoryNotFoundException: Source directory does not exist or could not be found: C:\Users\micha\AppData\Local\BlueJeans\BlueJeans\0.0.0\AsyncStorage
+   at BlueJeans.Windows.Common.Utilities.FileUtilities.DirectoryCopy(String sourceDirName, String destDirName, Boolean copySubDirs)
+   at BlueJeans.Managers.StorageMigrationHelper.Migrate() 
+2020-01-14T02:35:53:7250 | 1   | INFO    | BlueJeans(28104) | --> Application is preparing to run... 
+2020-01-14T02:35:53:7938 | 1   | INFO    | App | --> Application is now running... 
+2020-01-14T02:35:53:7958 | 1   | INFO    | App | --> Application Path: [%LOCALAPPDATA%\BlueJeans\current\BlueJeans.exe] 
+2020-01-14T02:35:53:7958 | 1   | INFO    | App | --> Current Working Directory: [C:\Users\micha\AppData\Local\Temp\MSI2ABE.tmp-] 
+2020-01-14T02:35:53:7968 | 1   | INFO    | App | --> Product Name: [BlueJeans] 
+2020-01-14T02:35:53:7968 | 1   | INFO    | App | --> Product Version: [2.18.39] 
+2020-01-14T02:35:53:7998 | 1   | INFO    | App | --> Application Keys: HA=849de2cb9a4d488bb260ff0600026d1b 
+2020-01-14T02:35:53:8017 | 1   | WARN    | App | --> Application location [C:\Users\micha\AppData\Local\BlueJeans\current] and current working directory [C:\Users\micha\AppData\Local\Temp\MSI2ABE.tmp-] are not the same... 
+2020-01-14T02:35:53:8017 | 1   | INFO    | App | --> Current working directory is now C:\Users\micha\AppData\Local\BlueJeans\current 
+2020-01-14T02:35:53:8616 | 1   | INFO    | App | --> Per-User EXE setup is detected 
+2020-01-14T02:35:53:8716 | 1   | INFO    | App | --> Application Id: 28104 
+2020-01-14T02:35:53:8716 | 1   | INFO    | App | --> Application Path: C:\Users\micha\AppData\Local\BlueJeans\current\BlueJeans.exe 
+2020-01-14T02:35:53:8726 | 1   | INFO    | App | --> Application Version: 2.18.39.0 [False] 
+2020-01-14T02:35:53:8726 | 1   | INFO    | App | --> Application Base Data Path: C:\Users\micha\AppData\Local\BlueJeans\BlueJeans 
+2020-01-14T02:35:53:8726 | 1   | INFO    | App | --> Application Base Log Path: C:\Users\micha\AppData\Local\BlueJeans\BlueJeans\Logs 
+2020-01-14T02:35:53:8736 | 1   | INFO    | App | --> Application Base Resource Path: C:\Users\micha\AppData\Local\BlueJeans\current\Assets 
+2020-01-14T02:35:53:8756 | 9   | INFO    | App | --> Start searching for running BlueJeans.Detector process... 
+2020-01-14T02:35:53:8885 | 9   | INFO    | App | --> BlueJeans.Detector process found. 
+2020-01-14T02:35:54:0750 | 1   | INFO    | Bootstrapper | --> Initial properties being sent to react layer: {
+  "appDetails": {
+    "appId": 28104,
+    "appPath": "C:\\Users\\micha\\AppData\\Local\\BlueJeans\\current\\BlueJeans.exe",
+    "appDirectory": "C:\\Users\\micha\\AppData\\Local\\BlueJeans\\current",
+    "appFileName": "BlueJeans.exe",
+    "appName": "BlueJeans",
+    "appInstallerType": "userExe",
+    "dataPath": "C:\\Users\\micha\\AppData\\Local\\BlueJeans\\BlueJeans",
+    "logPath": "C:\\Users\\micha\\AppData\\Local\\BlueJeans\\BlueJeans\\Logs",
+    "resourcePath": "C:\\Users\\micha\\AppData\\Local\\BlueJeans\\current\\Assets",
+    "contentCapturerPath": "C:\\Users\\micha\\AppData\\Local\\BlueJeans\\app-2.18.39",
+    "isAppVersionOverride": false,
+    "appVersion": {
+      "Major": 2,
+      "Minor": 18,
+      "Build": 39,
+      "Revision": 0,
+      "MajorRevision": 0,
+      "MinorRevision": 0
+    },
+    "appFileVersion": {
+      "Comments": "",
+      "CompanyName": "BlueJeans",
+      "FileBuildPart": 39,
+      "FileDescription": "BlueJeans",
+      "FileMajorPart": 2,
+      "FileMinorPart": 18,
+      "FileName": "C:\\Users\\micha\\AppData\\Local\\BlueJeans\\current\\BlueJeans.exe",
+      "FilePrivatePart": 0,
+      "FileVersion": "2.18.39",
+      "InternalName": "BlueJeans.exe",
+      "IsDebug": false,
+      "IsPatched": false,
+      "IsPrivateBuild": false,
+      "IsPreRelease": false,
+      "IsSpecialBuild": false,
+      "Language": "Language Neutral",
+      "LegalCopyright": "Copyright �  2019",
+      "LegalTrademarks": "",
+      "OriginalFilename": "BlueJeans.exe",
+      "PrivateBuild": "",
+      "ProductBuildPart": 39,
+      "ProductMajorPart": 2,
+      "ProductMinorPart": 18,
+      "ProductName": "BlueJeans",
+      "ProductPrivatePart": 0,
+      "ProductVersion": "2.18.39",
+      "SpecialBuild": ""
+    },
+    "localizationDetails": {
+      "isLocaleOverride": false,
+      "locale": "en-US",
+      "isLanguageOverride": false,
+      "language": "en-US",
+      "isRightToLeftOverride": false,
+      "isRightToLeft": false
+    },
+    "isDebugMode": false,
+    "isBundleMode": true
+  },
+  "systemDetails": {
+    "machineName": "DESKTOP-ELOMHVT",
+    "userDomainName": "DESKTOP-ELOMHVT",
+    "userName": "micha",
+    "friendlyUserName": "Michel Huang",
+    "osVersion": {
+      "Name": "Windows 10",
+      "Edition": "",
+      "Version": {
+        "Major": 10,
+        "Minor": 1903,
+        "Build": 18362,
+        "Revision": 535,
+        "MajorRevision": 0,
+        "MinorRevision": 535
+      },
+      "ReleaseName": "1903",
+      "OperationSystemBits": 64
+    },
+    "dotNetVersions": [
+      {
+        "KeyName": "v4",
+        "Name": "4.8.03752",
+        "ServicePack": "",
+        "Install": "1",
+        "VersionType": "Full",
+        "FriendlyName": ".NET v4  4.8.03752  Full"
+      },
+      {
+        "KeyName": "v4.0",
+        "Name": "4.0.0.0",
+        "ServicePack": "",
+        "Install": "1",
+        "VersionType": "Client",
+        "FriendlyName": ".NET v4.0  4.0.0.0  Client"
+      },
+      {
+        "KeyName": "v4.7.2",
+        "Name": "4.7.2",
+        "ServicePack": null,
+        "Install": null,
+        "VersionType": null,
+        "FriendlyName": ".NET v4.7.2  4.7.2  "
+      }
+    ],
+    "clrVersion": {
+      "Major": 4,
+      "Minor": 0,
+      "Build": 30319,
+      "Revision": 42000,
+      "MajorRevision": 0,
+      "MinorRevision": -23536
+    }
+  },
+  "accessibilityDetails": {
+    "isHighContrast": false
+  }
+} 
+2020-01-14T02:35:54:1079 | 1   | INFO    | Bootstrapper | --> Creating react native host... 
+2020-01-14T02:35:54:1109 | 1   | INFO    | ReactNativeHost | --> React ComponentName[blue] 
+2020-01-14T02:35:54:1119 | 1   | INFO    | ReactNativeHost | --> React JavaScriptMainModuleName[index.windows] 
+2020-01-14T02:35:54:1119 | 1   | INFO    | ReactNativeHost | --> React Bundled[True] 
+2020-01-14T02:35:54:1119 | 1   | INFO    | ReactNativeHost | --> React DeveloperSupport[False] 
+2020-01-14T02:35:54:1920 | 1   | INFO    | Bootstrapper | --> Creating native packages... 
+2020-01-14T02:35:54:3512 | 1   | INFO    | Shell | --> MinWindowDimentions: 962 / 571 
+2020-01-14T02:35:54:3522 | 1   | INFO    | Shell | --> Scale Ratio for current monitor: 1 
+2020-01-14T02:35:54:3552 | 1   | INFO    | BrandingManager | --> Branding data deleted 
+2020-01-14T02:35:54:3592 | 1   | INFO    | InstallerUpdater | --> Updating Add/Remove Program (ARP) entry 
+2020-01-14T02:35:54:3592 | 1   | INFO    | InstallerUpdater | --> ARP entry was found, update icon to: C:\Users\micha\AppData\Local\BlueJeans\current\BlueJeans.exe,0 
+2020-01-14T02:35:54:3602 | 1   | INFO    | InstallerUpdater | --> Starting shortcuts update for extended branding on icon: C:\Users\micha\AppData\Local\BlueJeans\current\BlueJeans.exe 
+2020-01-14T02:35:54:3846 | 1   | INFO    | InstallerUpdater | --> Found shortcut for Desktop. Full path: C:\Users\micha\Desktop\BlueJeans.lnk. Will update on new icon 
+2020-01-14T02:35:54:3866 | 1   | INFO    | InstallerUpdater | --> Starting shortcuts update for extended branding on icon: C:\Users\micha\AppData\Local\BlueJeans\current\BlueJeans.exe 
+2020-01-14T02:35:54:3886 | 1   | INFO    | InstallerUpdater | --> Found shortcut for StartMenu. Full path: C:\Users\micha\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\BlueJeans.lnk. Will update on new icon 
+2020-01-14T02:35:54:4755 | 1   | INFO    | Bootstrapper | --> Configuring native packages... 
+2020-01-14T02:35:54:4954 | 1   | INFO    | ProtocolHandlerPackage | --> Protocol Handler process with args = bjnb://command/gotoguestjoinpage 
+2020-01-14T02:35:54:4964 | 1   | INFO    | Bootstrapper | --> Initializing react native host... 
+2020-01-14T02:35:54:4994 | 1   | INFO    | ReactNativeHost | --> The JavaScript bundle reference: [C:\Users\micha\AppData\Local\BlueJeans\current\\ReactAssets/index.windows.bundle] 
+2020-01-14T02:35:54:7676 | 1   | INFO    | ActiveSessionModule | --> Created 
+2020-01-14T02:35:54:7855 | 1   | INFO    | DiagnosticsModule | --> Created 
+2020-01-14T02:35:54:7875 | 1   | INFO    | VSS:FileUploadClient | --> Created 
+2020-01-14T02:35:54:7885 | 1   | INFO    | VSS:FileUploaderModule | --> Created 
+2020-01-14T02:35:55:5290 | 9   | INFO    | ActiveSessionModule | --> Set cluster to: production (https://bluejeans.com) 
+2020-01-14T02:35:55:5320 | 9   | INFO    | ActiveSessionModule | --> Clear user details 
+2020-01-14T02:35:55:5440 | 1   | INFO    | VSS:FileUploaderModule | --> OnResume... 
+2020-01-14T02:35:55:6776 | 9   | INFO    | Javascript | --> Rehydrate called while network availability still unknown 
+2020-01-14T02:35:55:6806 | 9   | INFO    | ActiveSessionModule | --> Set cluster to: production (https://bluejeans.com) 
+2020-01-14T02:35:55:6846 | 9   | INFO    | Javascript | --> Checking if show remote video or not? 
+2020-01-14T02:35:55:6856 | 9   | INFO    | Javascript | --> Meeting state: LOADING, Others sharing video: false, Am I sharing content: false 
+2020-01-14T02:35:55:6856 | 9   | INFO    | Javascript | --> Show remote video: false 
+2020-01-14T02:35:55:6866 | 9   | INFO    | ActiveSessionModule | --> Set cluster to: production (https://bluejeans.com) 
+2020-01-14T02:35:55:6995 | 9   | INFO    | ReactMediaModule | --> LogPath set via Media Library Configuration to C:\Users\micha\AppData\Local\BlueJeans\BlueJeans\Logs 
+2020-01-14T02:35:55:7015 | 9   | INFO    | ReactMediaModule | --> Crash dump output is enable with crash dump output path [C:\Users\micha\AppData\Local\BlueJeans\BlueJeans\Crash] specified via media library configuration 
+2020-01-14T02:35:55:7025 | 9   | INFO    | ReactMediaModule | --> ClientPlatformType=Desktop, UserAgent=BlueJeans-Blue, AppVersion=2.18.39.0 
+2020-01-14T02:35:55:7025 | 9   | INFO    | ReactMediaModule | --> ConfigPath=, LogPath=C:\Users\micha\AppData\Local\BlueJeans\BlueJeans\Logs, LogPrefix=BlueJeans-Win-Media 
+2020-01-14T02:35:55:7035 | 9   | INFO    | ReactMediaModule | --> EnableCrashDumpOutput=True, CrashDumpOutputPath=C:\Users\micha\AppData\Local\BlueJeans\BlueJeans\Crash 
+2020-01-14T02:35:55:7035 | 9   | INFO    | ReactMediaModule | --> EnableCrashReporter=False, CrashReporterAppPath= 
+2020-01-14T02:35:55:7075 | 9   | INFO    | ReactMediaModule | --> Parsed MediaClientInitializationSettings --> 
+2020-01-14T02:35:55:7085 | 9   | INFO    | ReactMediaModule | --> CapturerAppPath=C:\Users\micha\AppData\Local\BlueJeans\app-2.18.39 
+2020-01-14T02:35:55:7095 | 9   | INFO    | ReactMediaModule | --> RenderCreateMode=Default, RenderDeviceMode=Default 
+2020-01-14T02:35:55:7105 | 9   | INFO    | ReactMediaModule | --> VideoCaptureFramework=Default; MirrorViewMode=Default 
+2020-01-14T02:35:55:7285 | 9   | INFO    | MediaFacadeLoader | --> Creating default media facade... 
+2020-01-14T02:35:56:2410 | 9   | INFO    | DiagnosticsEventSource | --> Subscribed 
+2020-01-14T02:35:56:2534 | 9   | INFO    | MediaEventSource | --> Subscribed 
+2020-01-14T02:35:56:2554 | 9   | INFO    | VideoShareSessionManager | --> Subscribed to media session events... 
+2020-01-14T02:35:56:2554 | 9   | INFO    | VideoShareSessionManager | --> Created 
+2020-01-14T02:35:56:2564 | 9   | INFO    | MediaClient | --> UserAgent: [BlueJeans-Blue] 
+2020-01-14T02:35:56:2564 | 9   | INFO    | MediaClient | --> AppVersion: [2.18.39.0] 
+2020-01-14T02:35:56:2564 | 9   | INFO    | MediaClient | --> ConfigPath:  
+2020-01-14T02:35:56:2574 | 9   | INFO    | MediaClient | --> ConfigFileName:  
+2020-01-14T02:35:56:2574 | 9   | INFO    | MediaClient | --> LogPath: C:\Users\micha\AppData\Local\BlueJeans\BlueJeans\Logs 
+2020-01-14T02:35:56:2864 | 9   | INFO    | ReactMediaModule | --> Initializing media client... 
+2020-01-14T02:35:56:2963 | 9   | INFO    | MediaClient | --> DCP events are not subscribed due to unsupported platform type - Desktop 
+2020-01-14T02:35:56:2963 | 9   | INFO    | MediaClient | --> The media client state is transitioning from Created to Initializing 
+2020-01-14T02:35:56:3003 | 16  | INFO    | ReactMediaModule | --> EVENT: MEDIA_CLIENT_STATE_CHANGED [Created -> Initializing 
+2020-01-14T02:35:56:3083 | 9   | INFO    | MediaStreamManagerEventSource | --> Subscribed 
+2020-01-14T02:35:56:3133 | 9   | INFO    | DeviceEventSource | --> Subscribed 
+2020-01-14T02:35:56:3203 | 9   | INFO    | RdcManager | --> RDC Manager State changed [Initializing -> Initializing] 
+2020-01-14T02:35:56:3223 | 9   | INFO    | RdcManager | --> RDC_SESSION_UPDATED: RdcEventArgs: Type: RdcManagerStateChanged, Data: {
+  "state": 0,
+  "description": "Initializing"
+} 
+2020-01-14T02:35:56:3223 | 9   | INFO    | RdcManager | --> Initialzing RDC Manager. 
+2020-01-14T02:35:56:3252 | 9   | INFO    | RdcManager | --> Handle = 2531876423408 
+2020-01-14T02:35:56:3252 | 9   | INFO    | RdcManager | --> RDC Manager State changed [Initializing -> Idle] 
+2020-01-14T02:35:56:3252 | 9   | INFO    | RdcManager | --> RDC_SESSION_UPDATED: RdcEventArgs: Type: RdcManagerStateChanged, Data: {
+  "state": 6,
+  "description": "Idle"
+} 
+2020-01-14T02:35:56:3262 | 9   | INFO    | MediaClient | --> The native component is initializing... 
+2020-01-14T02:35:56:4110 | 8   | INFO    | ReactMediaModule | --> Initialize media client requested successfully - Awaiting response... 
+2020-01-14T02:35:56:5018 | 9   | INFO    | Javascript | --> Checking if show remote video or not? 
+2020-01-14T02:35:56:5028 | 9   | INFO    | Javascript | --> Meeting state: LOADING, Others sharing video: false, Am I sharing content: false 
+2020-01-14T02:35:56:5028 | 9   | INFO    | Javascript | --> Show remote video: false 
+2020-01-14T02:35:57:1032 | 9   | INFO    | Javascript | --> Network is available. 
+2020-01-14T02:35:57:6078 | 20  | INFO    | MediaClient | --> The media client state is transitioning from Initializing to Initialized 
+2020-01-14T02:35:57:6088 | 8   | INFO    | ReactMediaModule | --> EVENT: MEDIA_CLIENT_STATE_CHANGED [Initializing -> Initialized 
+2020-01-14T02:35:57:6108 | 20  | INFO    | MediaClient | --> The media client is initialized: True ... 
+2020-01-14T02:35:57:6557 | 22  | INFO    | ReactMediaModule | --> Get media devices... 
+2020-01-14T02:35:57:6597 | 22  | INFO    | MediaDeviceManager | --> Enumerating media devices... 
+2020-01-14T02:35:57:6637 | 22  | INFO    | Javascript | --> Meeting launched with context: null 
+2020-01-14T02:35:57:6687 | 22  | INFO    | MediaClient | --> The local video preview state is being enabled... 
+2020-01-14T02:35:58:1115 | 20  | INFO    | MediaDeviceManager | --> Media device list ==> 
+2020-01-14T02:35:58:1145 | 20  | INFO    | MediaDeviceManager | --> Audio render devices (speaker) - Headset (AirPods Pro Hands-Free AG Audio) - {0.0.0.00000000}.{864217a6-2d5a-4ccb-bc29-c6e4b5ff3e9d} - Communication 
+2020-01-14T02:35:58:1145 | 20  | INFO    | MediaDeviceManager | --> Audio render devices (speaker) - Speaker/Headphone (Realtek(R) Audio) - {0.0.0.00000000}.{97cca854-6c40-4910-91d6-ae93dd7e9cf0} - None 
+2020-01-14T02:35:58:1145 | 20  | INFO    | MediaDeviceManager | --> Audio render devices (speaker) - Headphones (AirPods Pro Stereo) - {0.0.0.00000000}.{b8b82e66-2a2d-4fcf-938b-e853a8b9e445} - Console 
+2020-01-14T02:35:58:1145 | 20  | INFO    | MediaDeviceManager | --> Audio capture devices (microphone) - Microphone Array (Intel® Smart Sound Technology (Intel® SST)) - {0.0.1.00000000}.{adbad417-9f7f-4c94-833e-20d6261decbb} - Console 
+2020-01-14T02:35:58:1155 | 20  | INFO    | MediaDeviceManager | --> Audio capture devices (microphone) - Headset (AirPods Pro Hands-Free AG Audio) - {0.0.1.00000000}.{d385eaed-7023-4dde-ae53-cd3c8dc53768} - Communication 
+2020-01-14T02:35:58:1155 | 20  | INFO    | MediaDeviceManager | --> Video capture devices (camera) - HP Wide Vision FHD Camera 
+2020-01-14T02:35:58:1214 | 20  | INFO    | ReactMediaModule | --> Get media devices requested successfully - Resolving... 
+2020-01-14T02:35:58:1224 | 20  | INFO    | ReactMediaModule | --> Get media devices request resolved successfully. 
+2020-01-14T02:35:58:6760 | 9   | INFO    | Javascript | --> initMediaDevicesList: {"audioOut":[{"audioDeviceRole":"communication","connectionType":"bluetooth","deviceDescription":"Headset","deviceFriendlyName":"AirPods Pro Hands-Free AG Audio","deviceId":"{0.0.0.00000000}.{864217a6-2d5a-4ccb-bc29-c6e4b5ff3e9d}","deviceKey":"SPK:BTHHFENUM::","deviceName":"Headset (AirPods Pro Hands-Free AG Audio)","deviceSource":"CoreAudio","deviceType":"audioOut","hardwareId":"{1}.BTHHFENUM\\BTHHFPAUDIO\\8&BC69DD5&0&97","isBlacklisted":false,"isBuiltIn":true,"isDefault":true,"isJackAvailable":false,"isPaired":true,"isSelected":false,"pairedDevices":[{"deviceId":"{0.0.1.00000000}.{d385eaed-7023-4dde-ae53-cd3c8dc53768}","deviceType":"audioIn","hardwareId":"{1}.BTHHFENUM\\BTHHFPAUDIO\\8&BC69DD5&0&97"}]},{"audioDeviceRole":"none","connectionType":"builtIn","deviceDescription":"Speaker/Headphone","deviceFriendlyName":"Realtek(R","deviceId":"{0.0.0.00000000}.{97cca854-6c40-4910-91d6-ae93dd7e9cf0}","deviceKey":"SPK:INTELAUDIO:10EC:0285","deviceName":"Speaker/Headphone (Realtek(R) Audio)","deviceSource":"CoreAudio","deviceType":"audioOut","hardwareId":"{1}.INTELAUDIO\\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_103C8514&REV_1000\\4&21FA5379&0&0001","isBlacklisted":false,"isBuiltIn":true,"isDefault":false,"isJackAvailable":true,"isPaired":false,"isSelected":false,"pairedDevices":null},{"audioDeviceRole":"console","connectionType":"bluetooth","deviceDescription":"Headphones","deviceFriendlyName":"AirPods Pro Stereo","deviceId":"{0.0.0.00000000}.{b8b82e66-2a2d-4fcf-938b-e853a8b9e445}","deviceKey":"SPK:BTHENUM::","deviceName":"Headphones (AirPods Pro Stereo)","deviceSource":"CoreAudio","deviceType":"audioOut","hardwareId":"{1}.BTHENUM\\{0000110B-0000-1000-8000-00805F9B34FB}_VID&0001004C_PID&200E\\7&30C8C65D&0&F05CD5A0905A_C00000000","isBlacklisted":false,"isBuiltIn":true,"isDefault":true,"isJackAvailable":false,"isPaired":false,"isSelected":false,"pairedDevices":null}],"audioIn":[{"audioDeviceRole":"console","connectionType":"builtIn","deviceDescription":"Microphone Array","deviceFriendlyName":"Intel® Smart Sound Technology (Intel® SST","deviceId":"{0.0.1.00000000}.{adbad417-9f7f-4c94-833e-20d6261decbb}","deviceKey":"MIC:INTELAUDIO:8086:9DC8","deviceName":"Microphone Array (Intel® Smart Sound Technology (Intel® SST))","deviceSource":"CoreAudio","deviceType":"audioIn","hardwareId":"{1}.INTELAUDIO\\CTLR_DEV_9DC8&LINKTYPE_02&DEVTYPE_01&VEN_8086&DEV_AE20&SUBSYS_8514103C&REV_0001\\5&D999A8C&0&0100","isBlacklisted":false,"isBuiltIn":true,"isDefault":true,"isJackAvailable":false,"isPaired":false,"isSelected":false,"pairedDevices":null},{"audioDeviceRole":"communication","connectionType":"bluetooth","deviceDescription":"Headset","deviceFriendlyName":"AirPods Pro Hands-Free AG Audio","deviceId":"{0.0.1.00000000}.{d385eaed-7023-4dde-ae53-cd3c8dc53768}","deviceKey":"MIC:BTHHFENUM::","deviceName":"Headset (AirPods Pro Hands-Free AG Audio)","deviceSource":"CoreAudio","deviceType":"audioIn","hardwareId":"{1}.BTHHFENUM\\BTHHFPAUDIO\\8&BC69DD5&0&97","isBlacklisted":false,"isBuiltIn":true,"isDefault":true,"isJackAvailable":false,"isPaired":true,"isSelected":false,"pairedDevices":[{"deviceId":"{0.0.0.00000000}.{864217a6-2d5a-4ccb-bc29-c6e4b5ff3e9d}","deviceType":"audioOut","hardwareId":"{1}.BTHHFENUM\\BTHHFPAUDIO\\8&BC69DD5&0&97"}]}],"videoIn":[{"audioDeviceRole":"none","connectionType":"none","deviceDescription":"HP Wide Vision FHD Camera","deviceFriendlyName":"HP Wide Vision FHD Camera","deviceId":"\\\\?\\usb#vid_0408&pid_5251&mi_00#6&3b0bdd5d&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global","deviceKey":"","deviceName":"HP Wide Vision FHD Camera","deviceSource":"MediaFoundation","deviceType":"videoIn","hardwareId":"","isBlacklisted":false,"isBuiltIn":false,"isDefault":false,"isJackAvailable":false,"isPaired":false,"isSelected":false,"pairedDevices":null}]} 
+2020-01-14T02:35:58:6819 | 22  | INFO    | Javascript | --> selectMediaDevices: {"type":"MEDIA_DEVICES_SELECTED","mediaDevicesInUse":{"AudioIn":{"id":"{0.0.1.00000000}.{d385eaed-7023-4dde-ae53-cd3c8dc53768}","name":"Headset (AirPods Pro Hands-Free AG Audio)"},"AudioOut":{"id":"{0.0.0.00000000}.{864217a6-2d5a-4ccb-bc29-c6e4b5ff3e9d}","name":"Headset (AirPods Pro Hands-Free AG Audio)"},"VideoIn":{"id":"\\\\?\\usb#vid_0408&pid_5251&mi_00#6&3b0bdd5d&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global","name":"HP Wide Vision FHD Camera"}},"source":"init"} 
+2020-01-14T02:35:58:7019 | 22  | INFO    | ReactMediaModule | --> Select media devices... 
+2020-01-14T02:35:58:7059 | 22  | INFO    | MediaDeviceManager | --> Selected Media Devices ==>  
+2020-01-14T02:35:58:7069 | 22  | INFO    | MediaDeviceManager | --> Selected audio render device (speaker) - Headset (AirPods Pro Hands-Free AG Audio) 
+2020-01-14T02:35:58:7079 | 22  | INFO    | MediaDeviceManager | --> Selected audio capture device (microphone) - Headset (AirPods Pro Hands-Free AG Audio) 
+2020-01-14T02:35:58:7079 | 22  | INFO    | MediaDeviceManager | --> Selected video capture device (camera) - HP Wide Vision FHD Camera 
+2020-01-14T02:35:58:7159 | 20  | INFO    | ReactMediaModule | --> Select media devices requested successfully - Resolving... 
+2020-01-14T02:35:58:7159 | 20  | INFO    | ReactMediaModule | --> Select media devices request resolved successfully. 
+2020-01-14T02:35:58:7258 | 16  | INFO    | MediaClient | --> The local video preview state is being enabled... 
+2020-01-14T02:35:59:0312 | 28  | INFO    | MediaClient | --> The capture device has started with framework[MediaFoundation]. 
+2020-01-14T02:35:59:0332 | 19  | INFO    | ReactMediaModule | --> EVENT: CAPTURER_STARTED [MediaFoundation, False, 1280x720@30, \\?\usb#vid_0408&pid_5251&mi_00#6&3b0bdd5d&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\global] 
+2020-01-14T02:35:59:0392 | 28  | INFO    | MediaStreamManager | --> The media stream [Local-0] is attaching... 
+2020-01-14T02:35:59:0641 | 28  | INFO    | MediaStreamEventSource[Local-0-1] | --> Subscribed 
+2020-01-14T02:35:59:0661 | 28  | INFO    | MediaStream[Local-0-1] | --> Media stream state transitioning from Stopped -> Started 
+2020-01-14T02:35:59:0661 | 28  | INFO    | MediaStream[Local-0-1] | --> Started 
+2020-01-14T02:35:59:0671 | 28  | INFO    | MediaStreamManager | --> The media stream [Local-0-1] is started. 
+2020-01-14T02:35:59:0671 | 28  | INFO    | MediaStreamManager | --> The media stream [Local-0-1] is attached. 
+2020-01-14T02:35:59:0691 | 10  | INFO    | ReactMediaModule | --> EVENT: STREAM_ATTACHED [Local-0-1, 1] 
+2020-01-14T02:35:59:0931 | 1   | INFO    | BlueJeansVideoManager | --> CreateViewInstance - BlueJeansVideoView 
+2020-01-14T02:35:59:1080 | 1   | INFO    | BlueJeansVideoManager | --> BlueJeansVideoView[97, Local-0-1-1] media frame source set to [Local-0-1-1] 
+2020-01-14T02:35:59:1120 | 1   | INFO    | MediaFrameSource[Local-0-1-1] | --> Started 
+2020-01-14T02:35:59:1349 | 1   | INFO    | MediaStream[Local-0-1] | --> First frame requested -  
+2020-01-14T02:35:59:1359 | 1   | INFO    | MediaFrameSource[Local-0-1-1] | --> First frame requested -  
+2020-01-14T02:35:59:1459 | 1   | INFO    | VideoControl[56850b93-a342-4957-a57c-2f368119e4bc] | --> Loaded[0] with source [Local-0-1-1] already attached 
+2020-01-14T02:35:59:2776 | 29  | INFO    | MediaStream[Local-0-1] | --> Frame size changed at frame [0] - VideoFormat: 1280 x 720 
+2020-01-14T02:35:59:2806 | 16  | INFO    | MediaFrameSource[Local-0-1-1] | --> Media stream updated at frame [0] - VideoFormat: 1280 x 720 - CSRC: 0 
+2020-01-14T02:35:59:2825 | 19  | INFO    | ReactMediaModule | --> EVENT: STREAM UPDATED [Type= Local-0-1 Mode=AudioVideo Resolution=1280 x 720 
+2020-01-14T02:35:59:2885 | 29  | INFO    | MediaStream[Local-0-1] | --> First frame received - Direct3DSurface [Buffer: 0x2497308292216, Width: 1280, Height: 720] 
+2020-01-14T02:35:59:2895 | 29  | INFO    | MediaFrameSource[Local-0-1-1] | --> First frame received - Direct3DSurface [Buffer: 0x2497308292216, Width: 1280, Height: 720] 
+2020-01-14T02:36:03:5503 | 1   | INFO    | BlueJeans(25288) | --> ===============================================================================  
+2020-01-14T02:36:03:5583 | 1   | INFO    | BlueJeans(25288) | --> ==================================== START ====================================  
+2020-01-14T02:36:03:5593 | 1   | INFO    | BlueJeans(25288) | --> ===============================================================================  
+2020-01-14T02:36:03:5593 | 1   | INFO    | BlueJeans(25288) | --> Application instance is launching with arguments [bjnb://meeting/fch66x3retjq48hu48rjwc1e60h2r8kdcnjq8ubecxfp2w3948x24u3mehr76ehf5xh6rxb5d9jp2vkk5thpyv925gh6utb5ehmpwtuzd5j24eh26wvkgc9k6rt38e925gh76vvne9hpa8hu49h74vvqedjq48hc49uq6tbjbxk7av3cbxq62vb548x24kb9cdm62tbc48p24xbkcnt5yv3fcdgprt9278h6avh25gh6utb5ehmpwtuzc5hp6tbkedfq8vvbcnq24eh2chh3adtk6tjp4chq60w38db564wkgc1p70vkad1r74v64d9m75j40yhh70h2r8kdd5w70rbecnp5yrvfdtq6arvmd5qpwqv9cgh3m8hh6tk62cb56wv3jrb665j3gb9gcgrkertk74wpccv570up4b9p6wr32rhk6mpk2tk16gr30b9h6tk62cb56wv3jrhg6dgp6qth6mvkge9p74tk2e1g70v24b12cnq78tbje1t6jwv5bxmp88hu64wk2dbx?ctxver=1.0.0&dt=1578969363105]... 
+2020-01-14T02:36:03:5663 | 1   | INFO    | BrandingLoader | --> Failed to load branding data - Branding location [C:\Users\micha\AppData\Local\BlueJeans\BlueJeans\Branding\branding.json] is missing or invalid 
+2020-01-14T02:36:03:5713 | 1   | INFO    | BlueJeans(25288) | --> Application instance is okay to launch... 
+2020-01-14T02:36:03:5852 | 1   | INFO    | App | --> Application received the following data from another instance [C:\Users\micha\AppData\Local\BlueJeans\current\BlueJeans.exe,bjnb://meeting/fch66x3retjq48hu48rjwc1e60h2r8kdcnjq8ubecxfp2w3948x24u3mehr76ehf5xh6rxb5d9jp2vkk5thpyv925gh6utb5ehmpwtuzd5j24eh26wvkgc9k6rt38e925gh76vvne9hpa8hu49h74vvqedjq48hc49uq6tbjbxk7av3cbxq62vb548x24kb9cdm62tbc48p24xbkcnt5yv3fcdgprt9278h6avh25gh6utb5ehmpwtuzc5hp6tbkedfq8vvbcnq24eh2chh3adtk6tjp4chq60w38db564wkgc1p70vkad1r74v64d9m75j40yhh70h2r8kdd5w70rbecnp5yrvfdtq6arvmd5qpwqv9cgh3m8hh6tk62cb56wv3jrb665j3gb9gcgrkertk74wpccv570up4b9p6wr32rhk6mpk2tk16gr30b9h6tk62cb56wv3jrhg6dgp6qth6mvkge9p74tk2e1g70v24b12cnq78tbje1t6jwv5bxmp88hu64wk2dbx?ctxver=1.0.0&dt=1578969363105]... 
+2020-01-14T02:36:03:5862 | 30  | INFO    | ProtocolHandlerPackage | --> Protocol Handler process with args = C:\Users\micha\AppData\Local\BlueJeans\current\BlueJeans.exe,bjnb://meeting/fch66x3retjq48hu48rjwc1e60h2r8kdcnjq8ubecxfp2w3948x24u3mehr76ehf5xh6rxb5d9jp2vkk5thpyv925gh6utb5ehmpwtuzd5j24eh26wvkgc9k6rt38e925gh76vvne9hpa8hu49h74vvqedjq48hc49uq6tbjbxk7av3cbxq62vb548x24kb9cdm62tbc48p24xbkcnt5yv3fcdgprt9278h6avh25gh6utb5ehmpwtuzc5hp6tbkedfq8vvbcnq24eh2chh3adtk6tjp4chq60w38db564wkgc1p70vkad1r74v64d9m75j40yhh70h2r8kdd5w70rbecnp5yrvfdtq6arvmd5qpwqv9cgh3m8hh6tk62cb56wv3jrb665j3gb9gcgrkertk74wpccv570up4b9p6wr32rhk6mpk2tk16gr30b9h6tk62cb56wv3jrhg6dgp6qth6mvkge9p74tk2e1g70v24b12cnq78tbje1t6jwv5bxmp88hu64wk2dbx?ctxver=1.0.0&dt=1578969363105 
+2020-01-14T02:36:03:5862 | 1   | INFO    | BlueJeans(25288) | --> Application instance is exiting because another instance is already running... 
+2020-01-14T02:36:03:5862 | 1   | INFO    | BlueJeans(25288) | --> Application has exited with code [2]. 
+2020-01-14T02:36:03:5872 | 1   | INFO    | BlueJeans(25288) | --> ===============================================================================  
+2020-01-14T02:36:03:5872 | 1   | INFO    | BlueJeans(25288) | --> ===================================== END =====================================  
+2020-01-14T02:36:03:5872 | 1   | INFO    | BlueJeans(25288) | --> ===============================================================================  
+2020-01-14T02:36:03:5882 | 30  | INFO    | ProtocolHandlerModule | --> Sending Protocol - [ProtocolHandler_UriChanged] with [{"ctxver":"1.0.0","meeting_api":"https://bluejeans.com","meeting_id":"778136249","source":"browser","user_full_name":"Michael","user_locale":"en","meeting_access_token":"db5736eb270845e198068754896b549d@z18","mixpanel_connection_id":"16fa1e769af1d8-0d17c399f3e85b-6701b35-1fa400-16fa1e769b03ac_1578969318086","enterprise_id":1915}] 
+2020-01-14T02:36:03:5971 | 37  | INFO    | Javascript | --> Meeting launched with context: {"ctxver":"1.0.0","meeting_api":"https://bluejeans.com","meeting_id":"778136249","source":"browser","user_full_name":"Michael","user_locale":"en","meeting_access_token":"db5736eb270845e198068754896b549d@z18","mixpanel_connection_id":"16fa1e769af1d8-0d17c399f3e85b-6701b35-1fa400-16fa1e769b03ac_1578969318086","enterprise_id":1915} 
+2020-01-14T02:36:03:5971 | 37  | INFO    | ActiveSessionModule | --> Set cluster to: production (https://bluejeans.com) 
+2020-01-14T02:36:03:6091 | 33  | INFO    | MediaClient | --> The local video preview state is being enabled... 
+2020-01-14T02:36:03:6151 | 19  | INFO    | Javascript | --> Checking if show remote video or not? 
+2020-01-14T02:36:03:6280 | 34  | INFO    | Javascript | --> Meeting state: LOADING, Others sharing video: false, Am I sharing content: false 
+2020-01-14T02:36:03:6290 | 34  | INFO    | Javascript | --> Show remote video: false 
+2020-01-14T02:36:05:1271 | 38  | INFO    | Javascript | --> Release channel: ga 
+2020-01-14T02:36:05:4353 | 45  | INFO    | NativeUpdatePackage | --> Is application installed in LocalAppData? - True 
+2020-01-14T02:36:05:4402 | 38  | INFO    | Javascript | --> Current version: 2.18.39.0, Below min version: false, New version available: false 
+2020-01-14T02:36:05:4821 | 36  | INFO    | Javascript | --> Checking if show remote video or not? 
+2020-01-14T02:36:05:4911 | 37  | INFO    | Javascript | --> Meeting state: LOADING, Others sharing video: false, Am I sharing content: false 
+2020-01-14T02:36:05:4911 | 37  | INFO    | Javascript | --> Show remote video: false 
+2020-01-14T02:36:08:0114 | 37  | INFO    | Javascript | --> Checking if show remote video or not? 
+2020-01-14T02:36:08:0114 | 37  | INFO    | Javascript | --> Meeting state: LOADING, Others sharing video: false, Am I sharing content: false 
+2020-01-14T02:36:08:0124 | 37  | INFO    | Javascript | --> Show remote video: false 
+2020-01-14T02:36:09:1562 | 1   | INFO    | MediaStream[Local-0-1] | --> Frame [299] requested - Direct3DSurface [Buffer: 0x2497308292216, Width: 1280, Height: 720], FPS: 29 
+2020-01-14T02:36:09:1572 | 1   | INFO    | MediaFrameSource[Local-0-1-1] | --> Frame [298] requested - Direct3DSurface [Buffer: 0x2497308292216, Width: 1280, Height: 720], FPS: 29 
+2020-01-14T02:36:09:3035 | 31  | INFO    | MediaStream[Local-0-1] | --> Frame [301] received - Direct3DSurface [Buffer: 0x2497308292216, Width: 1280, Height: 720], FPS: 30 
+2020-01-14T02:36:09:3045 | 31  | INFO    | MediaFrameSource[Local-0-1-1] | --> Frame [301] received - Direct3DSurface [Buffer: 0x2497308292216, Width: 1280, Height: 720], FPS: 30 
+2020-01-14T02:36:20:2236 | 1   | INFO    | BlueJeansVideoManager | --> DropViewInstance - BlueJeansVideoView[97, Local-0-1-1] 
+2020-01-14T02:36:20:2276 | 1   | INFO    | MediaFrameSource[Local-0-1-1] | --> Closed 
+2020-01-14T02:36:20:2306 | 1   | INFO    | MediaFrameSource[Local-0-1-1] | --> Frame received statistics (Close) - Frame Count: [626] - Frame Errors: 0 - FPS: 31 
+2020-01-14T02:36:20:2316 | 1   | INFO    | MediaFrameSource[Local-0-1-1] | --> Frame requested statistics (Close) - Frames Requested: [626] - Frame Errors: 0 
+2020-01-14T02:36:20:2385 | 1   | INFO    | VideoControl[56850b93-a342-4957-a57c-2f368119e4bc] | --> Unloaded[1] with no source attached 
+2020-01-14T02:36:20:3203 | 34  | INFO    | MediaClient | --> The local video preview state is being disable... 
+2020-01-14T02:36:20:3233 | 19  | INFO    | MediaStreamManager | --> The media stream [Local-0-1] is detaching... 
+2020-01-14T02:36:20:3263 | 19  | INFO    | MediaStream[Local-0-1] | --> Media stream state transitioning from Started -> Closing 
+2020-01-14T02:36:20:3273 | 19  | INFO    | MediaStreamEventSource[Local-0-1] | --> Closing 
+2020-01-14T02:36:20:3293 | 19  | INFO    | MediaStreamEventSource[Local-0-1] | --> Unsubscribed 
+2020-01-14T02:36:20:3313 | 19  | INFO    | MediaStream[Local-0-1] | --> Frame received statistics (Close) - Frame Count: [629] - Frame Errors: 0 - FPS: 29 
+2020-01-14T02:36:20:3313 | 19  | INFO    | MediaStream[Local-0-1] | --> Frame requested statistics (Close) - Frames Requested: [628] - Frame Errors: 0 
+2020-01-14T02:36:20:3313 | 19  | INFO    | MediaStream[Local-0-1] | --> Media stream state transitioning from Closing -> Closed 
+2020-01-14T02:36:20:3313 | 19  | INFO    | MediaStream[Local-0-1] | --> Closed 
+2020-01-14T02:36:20:3323 | 19  | INFO    | MediaStreamManager | --> The media stream Local-0-1 is closed. 
+2020-01-14T02:36:20:3323 | 19  | INFO    | MediaStreamManager | --> The media stream Local-0-1 has been removed. 
+2020-01-14T02:36:20:3323 | 19  | INFO    | MediaStreamManager | --> The media stream [Local-0-1] is detached. 
+2020-01-14T02:36:20:3333 | 19  | INFO    | MediaClient | --> The capture device has stopped... 
+2020-01-14T02:36:20:3333 | 20  | INFO    | ReactMediaModule | --> EVENT: CAPTURER_STOPPED [\\?\usb#vid_0408&pid_5251&mi_00#6&3b0bdd5d&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\global] 
+2020-01-14T02:36:20:3333 | 37  | INFO    | ReactMediaModule | --> EVENT: STREAM_DETACHED[Local-0-1, 2] 
+2020-01-14T02:36:22:2841 | 45  | INFO    | Javascript | --> Meeting info requested Meeting ID: 778136249 
+2020-01-14T02:36:22:2851 | 45  | INFO    | ActiveSessionModule | --> Set cluster to: production (https://bluejeans.com) 
+2020-01-14T02:36:22:2930 | 34  | INFO    | Javascript | --> Checking if show remote video or not? 
+2020-01-14T02:36:22:2950 | 37  | INFO    | Javascript | --> Meeting state: LOADING, Others sharing video: false, Am I sharing content: false 
+2020-01-14T02:36:22:2960 | 37  | INFO    | Javascript | --> Show remote video: false 
+2020-01-14T02:36:23:7985 | 35  | INFO    | Javascript | --> Meeting info received 
+2020-01-14T02:36:23:8035 | 9   | INFO    | Javascript | --> Checking if show remote video or not? 
+2020-01-14T02:36:23:8035 | 9   | INFO    | Javascript | --> Meeting state: LOADING, Others sharing video: false, Am I sharing content: false 
+2020-01-14T02:36:23:8035 | 9   | INFO    | Javascript | --> Show remote video: false 
+2020-01-14T02:36:23:8234 | 34  | INFO    | CollaborationManager | --> App enumeration started 
+2020-01-14T02:36:23:8274 | 34  | INFO    | ActiveSessionModule | --> Set MeetingId: 778136249, leaderId: 2064687, MeetingToken: 54541a6c69094823a66c45a2f95b2ddb@z18, CallGUID: d649a1c5-6f8e-4d8e-b22f-d7d888e7ca17  
+2020-01-14T02:36:23:8354 | 34  | INFO    | ApplicationManagerModule | --> The system screen saver has been disabled 
+2020-01-14T02:36:23:8613 | 34  | INFO    | ReactMediaModule | --> Connecting media session... 
+2020-01-14T02:36:23:9122 | 36  | INFO    | MediaSession | --> The media session state is transitioning from Disconnected to Connecting 
+2020-01-14T02:36:23:9152 | 44  | INFO    | ReactMediaModule | --> EVENT: MEDIA_SESSION_STATE_CHANGED [Disconnected -> Connecting 
+2020-01-14T02:36:23:9431 | 44  | INFO    | ReactMediaModule | --> Connect media session requested successfully - Awaiting response... 
+2020-01-14T02:36:24:1426 | 9   | ERROR   | AppEnumerator | --> Cannot get window text for HWND 01180944 
+2020-01-14T02:36:24:2972 | 9   | INFO    | CollaborationManager | --> App enumeration completed. Found 8 applications 
+2020-01-14T02:36:24:3360 | 40  | INFO    | Std:WebSocketClient | --> Created 
+2020-01-14T02:36:24:3450 | 40  | INFO    | Std:WebSocketClient | --> Connect to: wss://wss-z18.bluejeans.com/z18/evt/v1/778136249/websocket 
+2020-01-14T02:36:24:7810 | 17  | INFO    | Std:WebSocketClient | --> Connection established 
+2020-01-14T02:36:24:7850 | 22  | INFO    | Javascript | --> Meeting socket connected 
+2020-01-14T02:36:25:1428 | 10  | INFO    | Javascript | --> Checking if show remote video or not? 
+2020-01-14T02:36:25:1428 | 10  | INFO    | Javascript | --> Meeting state: LOADING, Others sharing video: true, Am I sharing content: false 
+2020-01-14T02:36:25:1438 | 10  | INFO    | Javascript | --> Show remote video: false 
+2020-01-14T02:36:25:1498 | 22  | INFO    | Javascript | --> Event Service successfully connected 
+2020-01-14T02:36:25:2356 | 34  | INFO    | Javascript | --> Checking if show remote video or not? 
+2020-01-14T02:36:25:2366 | 34  | INFO    | Javascript | --> Meeting state: LOADING, Others sharing video: true, Am I sharing content: false 
+2020-01-14T02:36:25:2366 | 34  | INFO    | Javascript | --> Show remote video: false 
+2020-01-14T02:36:25:4749 | 27  | INFO    | MediaEventSource | --> Received media device attached event - [{
+	"deviceAttachError" : "none",
+	"deviceAttachResult" : "normal",
+	"deviceId" : "{0.0.0.00000000}.{864217a6-2d5a-4ccb-bc29-c6e4b5ff3e9d}",
+	"deviceName" : "{0.0.0.00000000}.{864217a6-2d5a-4ccb-bc29-c6e4b5ff3e9d}",
+	"deviceType" : "audioOut"
+}]  
+2020-01-14T02:36:25:4799 | 27  | INFO    | ReactMediaModule | --> EVENT: MEDIA_DEVICE_ATTACHED - {0.0.0.00000000}.{864217a6-2d5a-4ccb-bc29-c6e4b5ff3e9d}, AudioOut, Normal, None 
+2020-01-14T02:36:26:9427 | 27  | INFO    | MediaEventSource | --> Received media device attached event - [{
+	"deviceAttachError" : "none",
+	"deviceAttachResult" : "normal",
+	"deviceId" : "{0.0.1.00000000}.{d385eaed-7023-4dde-ae53-cd3c8dc53768}",
+	"deviceName" : "{0.0.1.00000000}.{d385eaed-7023-4dde-ae53-cd3c8dc53768}",
+	"deviceType" : "audioIn"
+}]  
+2020-01-14T02:36:26:9427 | 27  | INFO    | ReactMediaModule | --> EVENT: MEDIA_DEVICE_ATTACHED - {0.0.1.00000000}.{d385eaed-7023-4dde-ae53-cd3c8dc53768}, AudioIn, Normal, None 
+2020-01-14T02:36:28:0580 | 10  | INFO    | ReactMediaModule | --> EVENT: REMOTE_AUDIO_ENABLED 
+2020-01-14T02:36:28:0590 | 33  | INFO    | ReactMediaModule | --> EVENT: CONTENT_STREAM_ENABLED 
+2020-01-14T02:36:28:0580 | 35  | INFO    | ReactMediaModule | --> EVENT: LOCAL_AUDIO_UNMUTED 
+2020-01-14T02:36:28:0590 | 48  | INFO    | ReactMediaModule | --> EVENT: LOCAL_VIDEO_MUTED 
+2020-01-14T02:36:28:0659 | 27  | INFO    | MediaStreamManager | --> The media stream [Remote-0] is attaching... 
+2020-01-14T02:36:28:0669 | 27  | INFO    | MediaStreamEventSource[Remote-0-2] | --> Subscribed 
+2020-01-14T02:36:28:0669 | 27  | INFO    | MediaStream[Remote-0-1] | --> Media stream state transitioning from Stopped -> Started 
+2020-01-14T02:36:28:0669 | 27  | INFO    | MediaStream[Remote-0-1] | --> Started 
+2020-01-14T02:36:28:0679 | 27  | INFO    | MediaStreamManager | --> The media stream [Remote-0-1] is started. 
+2020-01-14T02:36:28:0669 | 45  | INFO    | ReactMediaModule | --> EVENT: REMOTE_VIDEO_ENABLED 
+2020-01-14T02:36:28:0669 | 10  | INFO    | ReactMediaModule | --> EVENT: REMOTE_VIDEO_ENABLED 
+2020-01-14T02:36:28:0679 | 27  | INFO    | MediaStreamManager | --> The media stream [Remote-0-1] is attached. 
+2020-01-14T02:36:28:0689 | 48  | INFO    | ReactMediaModule | --> EVENT: STREAM_ATTACHED [Remote-0-1, 3] 
+2020-01-14T02:36:28:0709 | 35  | INFO    | Javascript | --> Checking if show remote video or not? 
+2020-01-14T02:36:28:0709 | 35  | INFO    | Javascript | --> Meeting state: LOADING, Others sharing video: true, Am I sharing content: false 
+2020-01-14T02:36:28:0719 | 35  | INFO    | Javascript | --> Show remote video: false 
+2020-01-14T02:36:28:2569 | 27  | INFO    | MediaStreamManager | --> The media stream [Content-0] is attaching... 
+2020-01-14T02:36:28:2579 | 27  | INFO    | MediaStreamEventSource[Content-0-3] | --> Subscribed 
+2020-01-14T02:36:28:2579 | 27  | INFO    | MediaStream[Content-0-1] | --> Media stream state transitioning from Stopped -> Started 
+2020-01-14T02:36:28:2579 | 27  | INFO    | MediaStream[Content-0-1] | --> Started 
+2020-01-14T02:36:28:2589 | 27  | INFO    | MediaStreamManager | --> The media stream [Content-0-1] is started. 
+2020-01-14T02:36:28:2589 | 27  | INFO    | MediaStreamManager | --> The media stream [Content-0-1] is attached. 
+2020-01-14T02:36:28:2589 | 40  | INFO    | ReactMediaModule | --> EVENT: STREAM_ATTACHED [Content-0-1, 4] 
+2020-01-14T02:36:28:2599 | 44  | INFO    | ReactMediaModule | --> EVENT: CONTENT_RECEIVE_STARTED[2, 08180ac7-253a-49c7-9270-1907fa33df7b] 
+2020-01-14T02:36:28:2619 | 45  | INFO    | Javascript | --> Checking if show remote video or not? 
+2020-01-14T02:36:28:2619 | 45  | INFO    | Javascript | --> Meeting state: LOADING, Others sharing video: true, Am I sharing content: false 
+2020-01-14T02:36:28:2619 | 45  | INFO    | Javascript | --> Show remote video: false 
+2020-01-14T02:36:28:2669 | 35  | INFO    | VideoShareSessionManager | --> Subscribing to the video share session... 
+2020-01-14T02:36:28:2679 | 40  | INFO    | MediaSession | --> The media session [Unknown] has been connected 
+2020-01-14T02:36:28:2689 | 40  | INFO    | MediaSession | --> The media session state is transitioning from Connecting to Connected 
+2020-01-14T02:36:28:2699 | 45  | INFO    | ReactMediaModule | --> EVENT: MEDIA_SESSION_STATE_CHANGED [Connecting -> Connected 
+2020-01-14T02:36:28:2699 | 34  | INFO    | Javascript | --> Checking if show remote video or not? 
+2020-01-14T02:36:28:2709 | 34  | INFO    | Javascript | --> Meeting state: LOADING, Others sharing video: true, Am I sharing content: false 
+2020-01-14T02:36:28:2709 | 34  | INFO    | Javascript | --> Show remote video: false 
+2020-01-14T02:36:28:2824 | 35  | INFO    | Javascript | --> Meeting media connected 
+2020-01-14T02:36:28:2834 | 35  | INFO    | Javascript | --> Checking if show remote video or not? 
+2020-01-14T02:36:28:2834 | 35  | INFO    | Javascript | --> Meeting state: STARTED, Others sharing video: true, Am I sharing content: false 
+2020-01-14T02:36:28:2844 | 35  | INFO    | Javascript | --> Show remote video: true 
+2020-01-14T02:36:28:2954 | 35  | INFO    | ReactMediaModule | --> Updating media flow state... 
+2020-01-14T02:36:28:2993 | 1   | INFO    | InteractionSource | --> Trying to register current sink on source 
+2020-01-14T02:36:28:3013 | 35  | INFO    | MediaClient | --> The media flow profile will be changed to: AudioVideoMuted 
+2020-01-14T02:36:28:3023 | 35  | INFO    | MediaClient | --> The media stream state will be changed to OutgoingAudioMuted = True, OutgoingVideoMuted = True, RemoteAudioEnabled = True, RemoteVideoEnabled = True, ContentStreamEnabled = True, AuxiliaryAudioSendEnabled = False 
+2020-01-14T02:36:28:3023 | 1   | INFO    | MediaFrameSource[Content-0-1-1] | --> Started 
+2020-01-14T02:36:28:3053 | 44  | INFO    | ReactMediaModule | --> Update media flow state requested successfully - Resolving... 
+2020-01-14T02:36:28:3063 | 44  | INFO    | ReactMediaModule | --> Update media flow state request resolved successfully. 
+2020-01-14T02:36:28:3143 | 44  | INFO    | Javascript | --> update media stream success with {"outgoingAudioMuted":true,"outgoingVideoMuted":true,"remoteAudioEnabled":true,"remoteVideoEnabled":true,"contentStreamEnabled":true,"auxiliaryAudioSendEnabled":false} setting isEntering to false 
+2020-01-14T02:36:28:3422 | 1   | INFO    | MediaStream[Content-0-1] | --> First frame requested -  
+2020-01-14T02:36:28:3432 | 1   | INFO    | MediaFrameSource[Content-0-1-1] | --> First frame requested -  
+2020-01-14T02:36:28:3482 | 1   | INFO    | VideoControl[9939d3ff-ff51-4602-8777-e07e163faa1d] | --> Loaded[0] with source [Content-0-1-1] already attached 
+2020-01-14T02:36:28:4759 | 39  | INFO    | Javascript | --> Checking if show remote video or not? 
+2020-01-14T02:36:28:4759 | 39  | INFO    | Javascript | --> Meeting state: STARTED, Others sharing video: true, Am I sharing content: false 
+2020-01-14T02:36:28:4769 | 39  | INFO    | Javascript | --> Show remote video: true 
+2020-01-14T02:36:28:5862 | 45  | INFO    | ReactMediaModule | --> EVENT: REMOTE_AUDIO_ENABLED 
+2020-01-14T02:36:28:5862 | 44  | INFO    | ReactMediaModule | --> EVENT: REMOTE_VIDEO_ENABLED 
+2020-01-14T02:36:28:5862 | 39  | INFO    | ReactMediaModule | --> EVENT: CONTENT_STREAM_ENABLED 
+2020-01-14T02:36:28:5862 | 46  | INFO    | ReactMediaModule | --> EVENT: LOCAL_AUDIO_UNMUTED 
+2020-01-14T02:36:28:5862 | 40  | INFO    | ReactMediaModule | --> EVENT: LOCAL_VIDEO_MUTED 
+2020-01-14T02:36:28:8494 | 33  | INFO    | ReactMediaModule | --> EVENT: LOCAL_AUDIO_MUTED 
+2020-01-14T02:36:28:8494 | 40  | INFO    | ReactMediaModule | --> EVENT: CONTENT_STREAM_ENABLED 
+2020-01-14T02:36:28:8494 | 46  | INFO    | ReactMediaModule | --> EVENT: REMOTE_VIDEO_ENABLED 
+2020-01-14T02:36:28:8494 | 45  | INFO    | ReactMediaModule | --> EVENT: REMOTE_AUDIO_ENABLED 
+2020-01-14T02:36:28:8494 | 39  | INFO    | ReactMediaModule | --> EVENT: LOCAL_VIDEO_MUTED 
+2020-01-14T02:36:28:9228 | 52  | INFO    | MediaStream[Remote-0-1] | --> Frame size changed at frame [0] - VideoFormat: 1280 x 720 
+2020-01-14T02:36:28:9238 | 35  | INFO    | ReactMediaModule | --> EVENT: STREAM UPDATED [Type= Remote-0-1 Mode=AudioVideo Resolution=1280 x 720 
+2020-01-14T02:36:28:9248 | 52  | INFO    | MediaStream[Remote-0-1] | --> First frame received - Direct3DSurface [Buffer: 0x2497426232696, Width: 1280, Height: 720] 
+2020-01-14T02:36:30:6877 | 53  | INFO    | MediaStream[Content-0-1] | --> Frame size changed at frame [0] - VideoFormat: 1366 x 768 
+2020-01-14T02:36:30:6887 | 33  | INFO    | MediaFrameSource[Content-0-1-1] | --> Media stream updated at frame [0] - VideoFormat: 1366 x 768 - CSRC: 0 
+2020-01-14T02:36:30:6887 | 39  | INFO    | ReactMediaModule | --> EVENT: STREAM UPDATED [Type= Content-0-1 Mode=AudioVideo Resolution=1366 x 768 
+2020-01-14T02:36:30:6917 | 53  | INFO    | MediaStream[Content-0-1] | --> First frame received - Direct3DSurface [Buffer: 0x2531878700376, Width: 1366, Height: 768] 
+2020-01-14T02:36:30:6917 | 53  | INFO    | MediaFrameSource[Content-0-1-1] | --> First frame received - Direct3DSurface [Buffer: 0x2531878700376, Width: 1366, Height: 768] 
+2020-01-14T02:36:38:4453 | 1   | INFO    | MediaStream[Content-0-1] | --> Frame [37] requested - Direct3DSurface [Buffer: 0x2531878700376, Width: 1366, Height: 768], FPS: 3 
+2020-01-14T02:36:38:4463 | 1   | INFO    | MediaFrameSource[Content-0-1-1] | --> Frame [36] requested - Direct3DSurface [Buffer: 0x2531878700376, Width: 1366, Height: 768], FPS: 3 
+2020-01-14T02:36:38:9446 | 52  | INFO    | MediaStream[Remote-0-1] | --> Frame [299] received - Direct3DSurface [Buffer: 0x2497426232696, Width: 1280, Height: 720], FPS: 29 
+2020-01-14T02:36:40:7081 | 53  | INFO    | MediaStream[Content-0-1] | --> Frame [46] received - Direct3DSurface [Buffer: 0x2531878700376, Width: 1366, Height: 768], FPS: 4 
+2020-01-14T02:36:40:7091 | 53  | INFO    | MediaFrameSource[Content-0-1-1] | --> Frame [46] received - Direct3DSurface [Buffer: 0x2531878700376, Width: 1366, Height: 768], FPS: 4 
+2020-01-14T02:37:28:4659 | 1   | INFO    | MediaStream[Content-0-1] | --> Frame [286] requested - Direct3DSurface [Buffer: 0x2531878700376, Width: 1366, Height: 768], FPS: 4 
+2020-01-14T02:37:28:4669 | 1   | INFO    | MediaFrameSource[Content-0-1-1] | --> Frame [284] requested - Direct3DSurface [Buffer: 0x2531878700376, Width: 1366, Height: 768], FPS: 4 
+2020-01-14T02:37:28:9418 | 52  | INFO    | MediaStream[Remote-0-1] | --> Frame [1784] received - Direct3DSurface [Buffer: 0x2497426232696, Width: 1280, Height: 720], FPS: 29 
+2020-01-14T02:37:30:8835 | 53  | INFO    | MediaStream[Content-0-1] | --> Frame [295] received - Direct3DSurface [Buffer: 0x2531878700376, Width: 1366, Height: 768], FPS: 4 
+2020-01-14T02:37:30:8845 | 53  | INFO    | MediaFrameSource[Content-0-1-1] | --> Frame [295] received - Direct3DSurface [Buffer: 0x2531878700376, Width: 1366, Height: 768], FPS: 4 
+2020-01-14T02:39:00:1632 | 35  | INFO    | ReactMediaModule | --> EVENT: MEDIA_DEGRADATION [{"degradations":["SpeakingWhileMuted"]}] 
+2020-01-14T02:39:02:9834 | 45  | INFO    | Javascript | --> Checking if show remote video or not? 
+2020-01-14T02:39:02:9834 | 45  | INFO    | Javascript | --> Meeting state: STARTED, Others sharing video: true, Am I sharing content: false 
+2020-01-14T02:39:02:9834 | 45  | INFO    | Javascript | --> Show remote video: true 
+2020-01-14T02:39:31:0214 | 46  | INFO    | Javascript | --> Checking if show remote video or not? 
+2020-01-14T02:39:31:0224 | 46  | INFO    | Javascript | --> Meeting state: STARTED, Others sharing video: true, Am I sharing content: false 
+2020-01-14T02:39:31:0234 | 46  | INFO    | Javascript | --> Show remote video: true 
+2020-01-14T02:40:11:5244 | 35  | INFO    | Javascript | --> Checking if show remote video or not? 
+2020-01-14T02:40:11:5254 | 35  | INFO    | Javascript | --> Meeting state: STARTED, Others sharing video: true, Am I sharing content: false 
+2020-01-14T02:40:11:5254 | 35  | INFO    | Javascript | --> Show remote video: true 
+2020-01-14T02:41:09:1724 | 1   | INFO    | CollaborationManager | --> App enumeration started 
+2020-01-14T02:41:09:3814 | 35  | ERROR   | AppEnumerator | --> Cannot get window text for HWND 01180944 
+2020-01-14T02:41:09:5004 | 35  | INFO    | CollaborationManager | --> App enumeration completed. Found 8 applications 
+2020-01-14T02:41:15:3075 | 45  | INFO    | Javascript | --> Checking if show remote video or not? 
+2020-01-14T02:41:15:3086 | 45  | INFO    | Javascript | --> Meeting state: STARTED, Others sharing video: true, Am I sharing content: false 
+2020-01-14T02:41:15:3086 | 45  | INFO    | Javascript | --> Show remote video: true 
+2020-01-14T02:41:17:9884 | 1   | INFO    | VideoControl[9939d3ff-ff51-4602-8777-e07e163faa1d] | --> Unloaded[1] with source [Content-0-1-1] still attached 
+2020-01-14T02:41:17:9894 | 1   | INFO    | VideoControl[9939d3ff-ff51-4602-8777-e07e163faa1d] | --> Rendering has been suspended for source[Content-0-1-1]... 
+2020-01-14T02:41:18:0184 | 1   | INFO    | VSS:FileUploaderModule | --> OnSuspend... 
+2020-01-14T02:41:18:0204 | 1   | INFO    | AudioManagerModule | --> Destroying module... 
+2020-01-14T02:41:18:0234 | 1   | INFO    | CollaborationUIModule | --> Destroying module... 
+2020-01-14T02:41:18:0234 | 1   | INFO    | WidgetUIModule | --> Destroying module... 
+2020-01-14T02:41:18:0254 | 1   | INFO    | WindowManagerModule | --> Destroying module... 
+2020-01-14T02:41:18:0324 | 1   | INFO    | MediaFrameSource[Content-0-1-1] | --> Closed 
+2020-01-14T02:41:18:0333 | 1   | INFO    | MediaFrameSource[Content-0-1-1] | --> Frame received statistics (Close) - Frame Count: [1663] - Frame Errors: 0 - FPS: 5 
+2020-01-14T02:41:18:0333 | 1   | INFO    | MediaFrameSource[Content-0-1-1] | --> Frame requested statistics (Close) - Frames Requested: [1663] - Frame Errors: 0 
+2020-01-14T02:41:18:0353 | 1   | INFO    | ApplicationManagerModule | --> Destroying module... 
+2020-01-14T02:41:18:0363 | 1   | INFO    | WindowManagerModule | --> Destroying module... 
+2020-01-14T02:41:18:0363 | 1   | INFO    | SystemManagerModule | --> Destroying module... 
+2020-01-14T02:41:18:0383 | 1   | INFO    | ProtocolHandlerModule | --> Destroying module... 
+2020-01-14T02:41:18:0394 | 1   | INFO    | ReactMediaModule | --> MediaClient instance is being destroyed... 
+2020-01-14T02:41:18:0423 | 1   | INFO    | MediaClient | --> The media client state is transitioning from Initialized to Deinitializing 
+2020-01-14T02:41:18:0433 | 1   | INFO    | MediaClient | --> Destroying media session... 
+2020-01-14T02:41:18:0453 | 1   | INFO    | MediaSession | --> The media session state is transitioning from Connected to Disconnected 
+2020-01-14T02:41:18:0493 | 1   | INFO    | MediaStreamManager | --> Removing all streams... 
+2020-01-14T02:41:18:0513 | 1   | INFO    | MediaStreamManager | --> The stream [Content-0-1] has been removed. 
+2020-01-14T02:41:18:0523 | 1   | INFO    | MediaStreamManager | --> The stream [Remote-0-1] has been removed. 
+2020-01-14T02:41:18:0533 | 1   | INFO    | MediaStream[Content-0-1] | --> Media stream state transitioning from Started -> Closing 
+2020-01-14T02:41:18:0533 | 1   | INFO    | MediaStreamEventSource[Content-0-3] | --> Closing 
+2020-01-14T02:41:18:0543 | 1   | INFO    | MediaStreamEventSource[Content-0-3] | --> Unsubscribed 
+2020-01-14T02:41:18:0553 | 1   | INFO    | MediaStream[Content-0-1] | --> Frame received statistics (Close) - Frame Count: [1664] - Frame Errors: 0 - FPS: 5 
+2020-01-14T02:41:18:0553 | 1   | INFO    | MediaStream[Content-0-1] | --> Frame requested statistics (Close) - Frames Requested: [1666] - Frame Errors: 0 
+2020-01-14T02:41:18:0563 | 1   | INFO    | MediaStream[Content-0-1] | --> Media stream state transitioning from Closing -> Closed 
+2020-01-14T02:41:18:0563 | 1   | INFO    | MediaStream[Content-0-1] | --> Closed 
+2020-01-14T02:41:18:0563 | 1   | INFO    | MediaStreamManager | --> The media stream Content-0-1 is closed. 
+2020-01-14T02:41:18:0563 | 1   | INFO    | MediaStream[Remote-0-1] | --> Media stream state transitioning from Started -> Closing 
+2020-01-14T02:41:18:0573 | 1   | INFO    | MediaStreamEventSource[Remote-0-2] | --> Closing 
+2020-01-14T02:41:18:0573 | 1   | INFO    | MediaStreamEventSource[Remote-0-2] | --> Unsubscribed 
+2020-01-14T02:41:18:0573 | 1   | INFO    | MediaStream[Remote-0-1] | --> Frame received statistics (Close) - Frame Count: [8587] - Frame Errors: 0 - FPS: 29 
+2020-01-14T02:41:18:0573 | 1   | INFO    | MediaStream[Remote-0-1] | --> Frame requested statistics (Close) - Frames Requested: [0] - Frame Errors: 0 
+2020-01-14T02:41:18:0583 | 1   | INFO    | MediaStream[Remote-0-1] | --> Media stream state transitioning from Closing -> Closed 
+2020-01-14T02:41:18:0583 | 1   | INFO    | MediaStream[Remote-0-1] | --> Closed 
+2020-01-14T02:41:18:0583 | 1   | INFO    | MediaStreamManager | --> The media stream Remote-0-1 is closed. 
+2020-01-14T02:41:18:0563 | 44  | INFO    | VideoShareSessionManager | --> Unsubscribe from the video share session... 
+2020-01-14T02:41:18:0610 | 1   | INFO    | RdcManager | --> DeInitialzing RDC Manager. 
+2020-01-14T02:41:18:0620 | 1   | INFO    | RdcManager | --> RDC Manager State changed [Idle -> Deinitializing] 
+2020-01-14T02:41:18:0620 | 1   | INFO    | RdcManager | --> RDC_SESSION_UPDATED: RdcEventArgs: Type: RdcManagerStateChanged, Data: {
+  "state": 1,
+  "description": "Deinitializing"
+} 
+2020-01-14T02:41:18:0640 | 1   | INFO    | RdcManager | --> Waiting RDC Event Thread to finish... 
+2020-01-14T02:41:18:0660 | 1   | INFO    | RdcManager | --> RDC Event Thread finished. 
+2020-01-14T02:41:18:0670 | 1   | INFO    | RdcManager | --> RDC Manager State changed [Deinitializing -> Deinitialized] 
+2020-01-14T02:41:18:0670 | 1   | INFO    | RdcManager | --> RDC_SESSION_UPDATED: RdcEventArgs: Type: RdcManagerStateChanged, Data: {
+  "state": 2,
+  "description": "Deinitialized"
+} 
+2020-01-14T02:41:18:0696 | 1   | INFO    | MediaEventSource | --> Unsubscribed 
+2020-01-14T02:41:18:0716 | 1   | INFO    | DeviceEventSource | --> Unsubscribed 
+2020-01-14T02:41:18:0716 | 1   | INFO    | MediaStreamManagerEventSource | --> Unsubscribed 
+2020-01-14T02:41:18:8923 | 1   | INFO    | MediaClient | --> The native component is deinitialized... 
+2020-01-14T02:41:18:8933 | 1   | INFO    | MediaClient | --> The media client state is transitioning from Deinitializing to Deinitialized 
+2020-01-14T02:41:18:8973 | 1   | INFO    | VideoShareSessionManager | --> Unsubscribed from media session events... 
+2020-01-14T02:41:18:8973 | 1   | INFO    | VideoShareSessionManager | --> Unsubscribe from the video share session... 
+2020-01-14T02:41:18:8999 | 1   | INFO    | DiagnosticsEventSource | --> Unsubscribed 
+2020-01-14T02:41:18:9029 | 1   | INFO    | ReactMediaModule | --> MediaClient instance has been destroyed... 
+2020-01-14T02:41:18:9039 | 1   | INFO    | SendReportHandlerModule | --> Destroying module... 
+2020-01-14T02:41:18:9039 | 1   | INFO    | OutlookIntegratorModule | --> Destroying module... 
+2020-01-14T02:41:18:9039 | 1   | INFO    | OutlookIntegratorModule | --> Destroyed 
+2020-01-14T02:41:18:9048 | 1   | INFO    | VSS:FileUploaderModule | --> OnDestroy... 
+2020-01-14T02:41:18:9091 | 20  | INFO    | BJN.HttpClient | --> Connection closed by idle 
+2020-01-14T02:41:18:9911 | 1   | INFO    | App | --> Application is shutting down with exit code [0]... 
+2020-01-14T02:41:18:9921 | 1   | INFO    | App | --> Application is disposing bootstrapper...); 
+2020-01-14T02:41:18:9941 | 1   | INFO    | App | --> Application has disposed bootstrapper... 
+2020-01-14T02:41:18:9950 | 1   | INFO    | App | --> Application is now shutdown... 
+2020-01-14T02:41:19:0187 | 1   | INFO    | BlueJeans(28104) | --> Application instance is exiting... 
+2020-01-14T02:41:19:0197 | 1   | INFO    | BlueJeans(28104) | --> Application has exited with code [0]. 
+2020-01-14T02:41:19:0197 | 1   | INFO    | BlueJeans(28104) | --> ===============================================================================  
+2020-01-14T02:41:19:0205 | 1   | INFO    | BlueJeans(28104) | --> ===================================== END =====================================  
+2020-01-14T02:41:19:0207 | 1   | INFO    | BlueJeans(28104) | --> ===============================================================================  

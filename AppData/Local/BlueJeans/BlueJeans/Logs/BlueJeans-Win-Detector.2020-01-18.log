@@ -1,0 +1,58 @@
+2020-01-19T00:50:32:3252 | 1   | INFO    | App(4056) | --> ===============================================================================  
+2020-01-19T00:50:32:3550 | 1   | INFO    | App(4056) | --> ==================================== START ====================================  
+2020-01-19T00:50:32:3550 | 1   | INFO    | App(4056) | --> ===============================================================================  
+2020-01-19T00:50:32:3550 | 1   | INFO    | App(4056) | --> Detector instance is launching with no arguments... 
+2020-01-19T00:50:32:3550 | 1   | INFO    | App(4056) | --> Detector is now running... 
+2020-01-19T00:50:32:3627 | 1   | INFO    | App(4056) | --> Application Path: [%LOCALAPPDATA%\BlueJeans\current\BlueJeans.Detector.exe] 
+2020-01-19T00:50:32:3627 | 1   | INFO    | App(4056) | --> Current Working Directory: [C:\windows\system32] 
+2020-01-19T00:50:32:3636 | 1   | INFO    | App(4056) | --> Product Name: [BlueJeans.Detector] 
+2020-01-19T00:50:32:3636 | 1   | INFO    | App(4056) | --> Product Version: [2.18.39] 
+2020-01-19T00:50:32:3646 | 1   | WARN    | App(4056) | --> Application location [C:\Users\micha\AppData\Local\BlueJeans\current] and current working directory [C:\windows\system32] are not the same... 
+2020-01-19T00:50:32:3646 | 1   | INFO    | App(4056) | --> Current working directory is now C:\Users\micha\AppData\Local\BlueJeans\current 
+2020-01-19T00:50:32:3832 | 1   | INFO    | DetectorService(4056) | --> Application Path: [C:\Users\micha\AppData\Local\BlueJeans\current\BlueJeans.Detector.exe] 
+2020-01-19T00:50:32:4338 | 1   | INFO    | Detector(4056) | --> Detector service is preparing to run... 
+2020-01-19T00:50:32:4389 | 1   | ERROR   | Detector(4056) | --> Can't get show menulet setting from registry
+Error message:The specified registry key does not exist. 
+2020-01-19T00:50:32:4399 | 1   | INFO    | Application State | --> ReadStateFromAsyncStorage started 
+2020-01-19T00:50:32:4438 | 5   | INFO    | Watcher(4056) | --> CrashingEventWaitHandle created for role Role.Detector 
+2020-01-19T00:50:32:4444 | 1   | INFO    | Detector Utilities (4056) | --> DirectoryPath = C:\Users\micha\AppData\Local\BlueJeans\current 
+2020-01-19T00:50:32:4455 | 1   | INFO    | Detector Utilities (4056) | --> keyAppPath = HKEY_CURRENT_USER 
+2020-01-19T00:50:32:4455 | 1   | INFO    | Detector Utilities (4056) | --> key = HKEY_CURRENT_USER\Software\Classes\bjnb\shell\open\command 
+2020-01-19T00:50:32:4484 | 1   | INFO    | Application State | --> Get Current State from AsyncStorage, folderPath: C:\Users\micha\AppData\Local\BlueJeans\BlueJeans\2.18.39 
+2020-01-19T00:50:32:4631 | 6   | INFO    | Detector(4056) | --> Detector role, webserver starting. PID=4056 
+2020-01-19T00:50:32:6437 | 1   | INFO    | Application State | --> User's data changed: refetch scheduled meetings 
+2020-01-19T00:50:32:6482 | 1   | INFO    | ScheduledMeetingsListener | --> Get BJN Scheduled Meetings 
+2020-01-19T00:50:32:8042 | 1   | INFO    | BrandingLoader | --> Failed to load branding data - Branding location [C:\Users\micha\AppData\Local\BlueJeans\BlueJeans\Branding\branding.json] is missing or invalid 
+2020-01-19T00:50:32:8052 | 1   | INFO    | TrayNotifyIcon | --> Should apply case for extended branding False 
+2020-01-19T00:50:32:8062 | 1   | INFO    | TrayNotifyIcon | --> Will apply default blue_jeans logo 
+2020-01-19T00:50:32:8160 | 1   | INFO    | TrayNotifyIcon | --> Tray icon applied 
+2020-01-19T00:50:32:8293 | 1   | INFO    | ScheduledMeetingsListener | --> Stop 
+2020-01-19T00:50:32:8303 | 1   | INFO    | Detector(4056) | --> Detector service is runing... 
+2020-01-19T00:50:32:8314 | 5   | INFO    | Watcher(4056) | --> Detector with Role = Role.Detector run Watcher Instance 
+2020-01-19T00:50:32:8354 | 10  | INFO    | ScheduledMeetingsListener | --> Started. Skip poll at first run: [True] 
+2020-01-19T00:50:33:1564 | 1   | INFO    | App(13596) | --> ===============================================================================  
+2020-01-19T00:50:33:1640 | 1   | INFO    | App(13596) | --> ==================================== START ====================================  
+2020-01-19T00:50:33:1650 | 1   | INFO    | App(13596) | --> ===============================================================================  
+2020-01-19T00:50:33:1650 | 1   | INFO    | App(13596) | --> Detector instance is launching with arguments [Role.Watcher,launchwatcherandexit,4056]... 
+2020-01-19T00:50:33:1650 | 1   | INFO    | App(13596) | --> Detector is now running... 
+2020-01-19T00:50:33:1670 | 1   | INFO    | App(13596) | --> Application Path: [%LOCALAPPDATA%\BlueJeans\current\BlueJeans.Detector.exe] 
+2020-01-19T00:50:33:1670 | 1   | INFO    | App(13596) | --> Current Working Directory: [C:\Users\micha\AppData\Local\BlueJeans\current] 
+2020-01-19T00:50:33:1670 | 1   | INFO    | App(13596) | --> Product Name: [BlueJeans.Detector] 
+2020-01-19T00:50:33:1670 | 1   | INFO    | App(13596) | --> Product Version: [2.18.39] 
+2020-01-19T00:50:33:1739 | 1   | INFO    | DetectorService(13596) | --> Application Path: [C:\Users\micha\AppData\Local\BlueJeans\current\BlueJeans.Detector.exe] 
+2020-01-19T00:50:33:2085 | 1   | INFO    | Watcher(13596) | --> Watcher service is preparing to run... 
+2020-01-19T00:50:33:2095 | 1   | INFO    | Watcher(13596) | --> LaunchAndExit with parameters: Role.Watcher pid 4056 
+2020-01-19T00:50:33:2993 | 5   | INFO    | Watcher(4056) | --> Start watching for process with id: 11664 
+2020-01-19T00:50:33:4919 | 1   | INFO    | App(11664) | --> ===============================================================================  
+2020-01-19T00:50:33:5013 | 1   | INFO    | App(11664) | --> ==================================== START ====================================  
+2020-01-19T00:50:33:5013 | 1   | INFO    | App(11664) | --> ===============================================================================  
+2020-01-19T00:50:33:5023 | 1   | INFO    | App(11664) | --> Detector instance is launching with arguments [Role.Watcher,pid,4056]... 
+2020-01-19T00:50:33:5023 | 1   | INFO    | App(11664) | --> Detector is now running... 
+2020-01-19T00:50:33:5033 | 1   | INFO    | App(11664) | --> Application Path: [%LOCALAPPDATA%\BlueJeans\current\BlueJeans.Detector.exe] 
+2020-01-19T00:50:33:5043 | 1   | INFO    | App(11664) | --> Current Working Directory: [C:\Users\micha\AppData\Local\BlueJeans\current] 
+2020-01-19T00:50:33:5045 | 1   | INFO    | App(11664) | --> Product Name: [BlueJeans.Detector] 
+2020-01-19T00:50:33:5045 | 1   | INFO    | App(11664) | --> Product Version: [2.18.39] 
+2020-01-19T00:50:33:5105 | 1   | INFO    | DetectorService(11664) | --> Application Path: [C:\Users\micha\AppData\Local\BlueJeans\current\BlueJeans.Detector.exe] 
+2020-01-19T00:50:33:5411 | 1   | INFO    | Watcher(11664) | --> Watcher service is preparing to run... 
+2020-01-19T00:50:33:5451 | 1   | INFO    | Watcher(11664) | --> CrashingEventWaitHandle found for role Role.Watcher 
+2020-01-19T00:50:33:5481 | 1   | INFO    | Watcher(11664) | --> Start watching for process with id: 4056 

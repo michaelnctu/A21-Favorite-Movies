@@ -1,0 +1,101 @@
+2020-04-21T02:17:55:0308 | 1   | INFO    | ScheduledMeetingsListener | --> Stop 
+2020-04-21T02:17:55:0933 | 1   | INFO    | Detector Utilities (14948) | --> Found 1 active processes (except current). Start waiting 10 seconds for process to finish 
+2020-04-21T02:17:55:1089 | 1   | INFO    | Detector Utilities (14948) | --> task for waiting process 1872 started 
+2020-04-21T02:17:55:1870 | 1   | INFO    | Detector Utilities (14948) | --> All processes were closed 
+2020-04-21T02:18:58:6412 | 1   | INFO    | App(15348) | --> ===============================================================================  
+2020-04-21T02:18:58:6570 | 1   | INFO    | App(15348) | --> ==================================== START ====================================  
+2020-04-21T02:18:58:6570 | 1   | INFO    | App(15348) | --> ===============================================================================  
+2020-04-21T02:18:58:6589 | 1   | INFO    | App(15348) | --> Detector instance is launching with no arguments... 
+2020-04-21T02:18:58:6589 | 1   | INFO    | App(15348) | --> Detector is now running... 
+2020-04-21T02:18:58:6616 | 1   | INFO    | App(15348) | --> Application Path: [%LOCALAPPDATA%\BlueJeans\current\BlueJeans.Detector.exe] 
+2020-04-21T02:18:58:6616 | 1   | INFO    | App(15348) | --> Current Working Directory: [C:\windows\system32] 
+2020-04-21T02:18:58:6624 | 1   | INFO    | App(15348) | --> Product Name: [BlueJeans.Detector] 
+2020-04-21T02:18:58:6637 | 1   | INFO    | App(15348) | --> Product Version: [2.18.39] 
+2020-04-21T02:18:58:6637 | 1   | WARN    | App(15348) | --> Application location [C:\Users\micha\AppData\Local\BlueJeans\current] and current working directory [C:\windows\system32] are not the same... 
+2020-04-21T02:18:58:6637 | 1   | INFO    | App(15348) | --> Current working directory is now C:\Users\micha\AppData\Local\BlueJeans\current 
+2020-04-21T02:18:58:6962 | 1   | INFO    | DetectorService(15348) | --> Application Path: [C:\Users\micha\AppData\Local\BlueJeans\current\BlueJeans.Detector.exe] 
+2020-04-21T02:18:58:8396 | 1   | INFO    | Detector(15348) | --> Detector service is preparing to run... 
+2020-04-21T02:18:58:8421 | 1   | ERROR   | Detector(15348) | --> Can't get show menulet setting from registry
+Error message:The specified registry key does not exist. 
+2020-04-21T02:18:58:8441 | 5   | INFO    | Watcher(15348) | --> CrashingEventWaitHandle created for role Role.Detector 
+2020-04-21T02:18:58:8441 | 1   | INFO    | Application State | --> ReadStateFromAsyncStorage started 
+2020-04-21T02:18:58:8461 | 1   | INFO    | Detector Utilities (15348) | --> DirectoryPath = C:\Users\micha\AppData\Local\BlueJeans\current 
+2020-04-21T02:18:58:8461 | 1   | INFO    | Detector Utilities (15348) | --> keyAppPath = HKEY_CURRENT_USER 
+2020-04-21T02:18:58:8502 | 1   | INFO    | Detector Utilities (15348) | --> key = HKEY_CURRENT_USER\Software\Classes\bjnb\shell\open\command 
+2020-04-21T02:18:58:8509 | 1   | INFO    | Application State | --> Get Current State from AsyncStorage, folderPath: C:\Users\micha\AppData\Local\BlueJeans\BlueJeans\2.18.39 
+2020-04-21T02:18:58:9436 | 6   | INFO    | Detector(15348) | --> Detector role, webserver starting. PID=15348 
+2020-04-21T02:18:59:0451 | 1   | INFO    | Application State | --> User's data changed: refetch scheduled meetings 
+2020-04-21T02:18:59:0506 | 1   | INFO    | ScheduledMeetingsListener | --> Get BJN Scheduled Meetings 
+2020-04-21T02:18:59:1807 | 1   | INFO    | BrandingLoader | --> Failed to load branding data - Branding location [C:\Users\micha\AppData\Local\BlueJeans\BlueJeans\Branding\branding.json] is missing or invalid 
+2020-04-21T02:18:59:1807 | 1   | INFO    | TrayNotifyIcon | --> Should apply case for extended branding False 
+2020-04-21T02:18:59:1829 | 1   | INFO    | TrayNotifyIcon | --> Will apply default blue_jeans logo 
+2020-04-21T02:18:59:1880 | 1   | INFO    | TrayNotifyIcon | --> Tray icon applied 
+2020-04-21T02:18:59:2001 | 1   | INFO    | ScheduledMeetingsListener | --> Stop 
+2020-04-21T02:18:59:2001 | 1   | INFO    | Detector(15348) | --> Detector service is runing... 
+2020-04-21T02:18:59:2037 | 5   | INFO    | Watcher(15348) | --> Detector with Role = Role.Detector run Watcher Instance 
+2020-04-21T02:18:59:2505 | 10  | INFO    | ScheduledMeetingsListener | --> Started. Skip poll at first run: [True] 
+2020-04-21T02:18:59:4867 | 1   | INFO    | App(14488) | --> ===============================================================================  
+2020-04-21T02:18:59:4967 | 1   | INFO    | App(14488) | --> ==================================== START ====================================  
+2020-04-21T02:18:59:4977 | 1   | INFO    | App(14488) | --> ===============================================================================  
+2020-04-21T02:18:59:4989 | 1   | INFO    | App(14488) | --> Detector instance is launching with arguments [Role.Watcher,launchwatcherandexit,15348]... 
+2020-04-21T02:18:59:4994 | 1   | INFO    | App(14488) | --> Detector is now running... 
+2020-04-21T02:18:59:5028 | 1   | INFO    | App(14488) | --> Application Path: [%LOCALAPPDATA%\BlueJeans\current\BlueJeans.Detector.exe] 
+2020-04-21T02:18:59:5030 | 1   | INFO    | App(14488) | --> Current Working Directory: [C:\Users\micha\AppData\Local\BlueJeans\current] 
+2020-04-21T02:18:59:5044 | 1   | INFO    | App(14488) | --> Product Name: [BlueJeans.Detector] 
+2020-04-21T02:18:59:5046 | 1   | INFO    | App(14488) | --> Product Version: [2.18.39] 
+2020-04-21T02:18:59:5127 | 1   | INFO    | DetectorService(14488) | --> Application Path: [C:\Users\micha\AppData\Local\BlueJeans\current\BlueJeans.Detector.exe] 
+2020-04-21T02:18:59:5470 | 1   | INFO    | Watcher(14488) | --> Watcher service is preparing to run... 
+2020-04-21T02:18:59:5480 | 1   | INFO    | Watcher(14488) | --> LaunchAndExit with parameters: Role.Watcher pid 15348 
+2020-04-21T02:18:59:6272 | 5   | INFO    | Watcher(15348) | --> Start watching for process with id: 14676 
+2020-04-21T02:18:59:8448 | 1   | INFO    | App(14676) | --> ===============================================================================  
+2020-04-21T02:18:59:8602 | 1   | INFO    | App(14676) | --> ==================================== START ====================================  
+2020-04-21T02:18:59:8612 | 1   | INFO    | App(14676) | --> ===============================================================================  
+2020-04-21T02:18:59:8632 | 1   | INFO    | App(14676) | --> Detector instance is launching with arguments [Role.Watcher,pid,15348]... 
+2020-04-21T02:18:59:8642 | 1   | INFO    | App(14676) | --> Detector is now running... 
+2020-04-21T02:18:59:8687 | 1   | INFO    | App(14676) | --> Application Path: [%LOCALAPPDATA%\BlueJeans\current\BlueJeans.Detector.exe] 
+2020-04-21T02:18:59:8697 | 1   | INFO    | App(14676) | --> Current Working Directory: [C:\Users\micha\AppData\Local\BlueJeans\current] 
+2020-04-21T02:18:59:8707 | 1   | INFO    | App(14676) | --> Product Name: [BlueJeans.Detector] 
+2020-04-21T02:18:59:8717 | 1   | INFO    | App(14676) | --> Product Version: [2.18.39] 
+2020-04-21T02:18:59:8873 | 1   | INFO    | DetectorService(14676) | --> Application Path: [C:\Users\micha\AppData\Local\BlueJeans\current\BlueJeans.Detector.exe] 
+2020-04-21T02:18:59:9435 | 1   | INFO    | Watcher(14676) | --> Watcher service is preparing to run... 
+2020-04-21T02:18:59:9503 | 1   | INFO    | Watcher(14676) | --> CrashingEventWaitHandle found for role Role.Watcher 
+2020-04-21T02:18:59:9553 | 1   | INFO    | Watcher(14676) | --> Start watching for process with id: 15348 
+2020-04-21T02:33:59:2513 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T02:48:59:2585 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T03:03:59:2605 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T03:18:59:2618 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T03:33:59:2636 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T03:48:59:2658 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T04:03:59:2673 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T04:18:59:2953 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T04:33:59:3017 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T04:48:59:3045 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T07:48:23:8970 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T08:03:23:9026 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T08:18:23:9037 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T08:33:23:9059 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T08:48:23:9116 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T09:03:23:9155 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T09:18:23:9203 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T09:33:23:9241 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T09:48:23:9300 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T10:03:23:9311 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T10:18:23:9334 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T10:33:23:9381 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T10:48:23:9443 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T11:03:23:9467 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T11:18:23:9495 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T11:33:23:9515 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T11:48:23:9525 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T12:03:23:9549 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T12:18:23:9582 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T12:33:23:9674 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T12:48:23:9694 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T13:03:23:9708 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T13:18:23:9781 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T13:33:23:9871 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T13:48:23:9893 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T14:03:23:9919 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T14:18:23:9953 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T15:04:33:0116 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
+2020-04-21T15:19:33:0169 | 10  | INFO    | ScheduledMeetingsListener | --> Re-sync meetings after timeout 
